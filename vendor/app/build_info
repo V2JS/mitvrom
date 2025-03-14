@@ -1,0 +1,9 @@
+appVersion=1.3.127.0
+revision=401871
+revision_url=origin/trunk/mitv_bsp_20190309
+type=trunk
+build_id=2021-12-28_19-00-00
+product=gitv
+appVersionExt=
+job=push_apk_to_release
+build_num=289
