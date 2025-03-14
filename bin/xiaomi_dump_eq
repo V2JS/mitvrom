@@ -1,0 +1,9 @@
+#!/system/bin/sh
+
+CODECPATH="/sys/class/xiaomi-speaker/AMP"
+
+CODEC_NAME=`cat ${CODECPATH}/name`
+CODEC_ADDR=`ls -l /sys/class/xiaomi-speaker | grep -i AMP | awk -F '/' '{print $5}'`
+
+echo -e "codec ${CODEC_NAME}"@${CODEC_ADDR}
+cat ${CODECPATH}/dump

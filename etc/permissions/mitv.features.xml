@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<permissions>
+    <!--usb slot for host-->
+    <feature name="mitv.hardware.usb.host.slot" />
+    <!--支持soundbar-->
+    <feature name="mitv.hardware.soundbar.compatible" />
+    <!--芯片支持3D转2D-->
+    <feature name="mitv.video.3dto2d" size="49,50,55,58,60,65,70,75"/>
+    <!--支持4K片源解码-->
+    <feature name="mitv.media.4k" size="49,50,55,58,65,70,75" />
+    <feature name="mitv.media.4k" size="43" resolution="3840x2160" />
+    <!--支持4K片源输出-->
+    <feature name="mitv.display.4k" size="49,50,55,58,65,70,75" />
+    <feature name="mitv.display.4k" size="43" resolution="3840x2160" />
+    <!--支持HDMI2.0-->
+    <feature name="mitv.hardware.hdmi.v20" size="49,50,55,58,60,65,70,75" />
+    <feature name="mitv.hardware.hdmi.v20" size="43" resolution="3840x2160" />
+    <!--有以太网口-->
+    <feature name="mitv.hardware.ethernet" />
+    <!--支持语音遥控器-->
+    <feature name="mitv.hardware.voicerc.compatible" />
+    <!--护眼模式-->
+    <feature name="mitv.display.eyeshield" />
+    <!--关闭休眠-->
+    <feature name="mitv.disable.system.suspend" />
+    <!--图形高级设置-->
+    <feature name="mitv.graphic.advanced.setting" size="49,50,55,58,65,70,75"/>
+    <!--Bluetooth 手柄及遥控器升级 -->
+    <feature name="mitv.software.bluetooth.update" platformid="!100,634,643,648,656,673,694,697,717,722"/>
+    <!--Sensord -->
+    <feature name="mitv.hardware.sensord"/>
+   <!--Karaoke -->
+    <feature name="mitv.sound.karaoke"/>
+   <!--支持耳机输出 -->
+    <feature name="mitv.hardware.earphone.output" platformid="648"/>
+   <!--支持快速开关屏幕 -->
+   <feature name="mitv.hardware.fast.switch.screen" platformid="693"/>
+   <!--支持设置动态背光 displayvendor:屏幕类型-->
+   <feature name="mitv.settings.backlight.dbc" platformid="651" displayvendor="0"/>
+   <feature name="mitv.settings.backlight.dbc" platformid="696" />
+   <feature name="mitv.settings.backlight.dbc" platformid="699" />
+   <feature name="mitv.settings.backlight.dbc" platformid="717" />
+   <feature name="mitv.settings.backlight.dbc" platformid="718" />
+   <feature name="mitv.settings.backlight.dbc" platformid="719" />
+   <feature name="mitv.settings.backlight.dbc" platformid="720" />
+   <feature name="mitv.settings.backlight.dbc" platformid="721" />
+   <feature name="mitv.settings.backlight.dbc" platformid="722" />
+   <feature name="mitv.settings.backlight.dbc" platformid="723" />
+   <feature name="mitv.settings.backlight.dbc" platformid="724" />
+   <!-- 支持DRA -->
+   <feature name="mitv.audio.dtmb.dra.enable"/>
+   <!-- 支持卸载系统应用 -->
+   <feature name="mitv.software.delete.sysapp"/>
+   <!-- 支持应用获取app resume广播 -->
+   <feature name="mitv.software.support.notify_resume"/>
+   <!-- 支持延迟启动进程 -->
+   <feature name="mitv.software.support_delay_process"/>
+</permissions>

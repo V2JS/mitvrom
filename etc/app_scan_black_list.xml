@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<items token="1497612014330">
+    <item package_name="umi-frontend::com.mi.umifrontend" flag="1" size="32"/>
+    <item package_name="umi-frontend::com.mi.umifrontend" flag="1" size="43" model="mitv4c"/>
+    <item package_name="umi-droid::com.mi.umi" flag="1" size="32"/>
+    <item package_name="umi-droid::com.mi.umi" flag="1" size="43" model="mitv4c"/>
+    <item package_name="Browser::com.android.browser" flag="1" size="32"/>
+    <item package_name="Browser::com.android.browser" flag="1" size="43" model="mitv4c"/>
+    <item package_name="Bluetooth::com.android.bluetooth" flag="1" size="32" platformid="!757"/>
+    <item package_name="Bluetooth::com.android.bluetooth" flag="1" size="43" model="mitv4c"/>
+    <item package_name="DocumentsUI::com.android.documentsui" flag="1" size="32"/>
+    <item package_name="DocumentsUI::com.android.documentsui" flag="1" size="43" model="mitv4c"/>
+    <item package_name="MiTVCtsTools::com.xiaomi.mitv.ctstools" flag="1" size="32"/>
+    <item package_name="MiTVCtsTools::com.xiaomi.mitv.ctstools" flag="1" size="43" model="mitv4c"/>
+    <item package_name="TvSettings::com.android.tv.settings" flag="1" size="32"/>
+    <item package_name="TvSettings::com.android.tv.settings" flag="1" size="43" model="mitv4c"/>
+    <item package_name="PrintSpooler::com.android.printspooler" flag="1" size="32"/>
+    <item package_name="PrintSpooler::com.android.printspooler" flag="1" size="43" model="mitv4c"/>
+    <item package_name="BaiduInput::com.baidu.input" flag="1" size="32"/>
+    <item package_name="BaiduInput::com.baidu.input" flag="1" size="43" model="mitv4c"/>
+    <item package_name="jiajia-jianshenfang_T6::com.jiajia.yundonghui.mitv" flag="1" size="32"/>
+    <item package_name="jiajia-jianshenfang_T6::com.jiajia.yundonghui.mitv" flag="1" size="43" model="mitv4c"/>
+    <item package_name="UserDictionaryProvider::com.android.providers.userdictionary" flag="1" size="32"/>
+    <item package_name="UserDictionaryProvider::com.android.providers.userdictionary" flag="1" size="43" model="mitv4c"/>
+    <item package_name="ContactsProvider::com.android.providers.contacts" flag="1" size="32"/>
+    <item package_name="ContactsProvider::com.android.providers.contacts" flag="1" size="43" model="mitv4c"/>
+    <item package_name="SoundBarService::com.xiaomi.mitv.soundbar" flag="1" size="32"/>
+    <item package_name="SoundBarService::com.xiaomi.mitv.soundbar" flag="1" size="43" model="mitv4c"/>
+    <item package_name="TV::com.android.tv" flag="1" size="32"/>
+    <item package_name="TV::com.android.tv" flag="1" size="43" model="mitv4c"/>
+</items>

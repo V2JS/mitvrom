@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<items token="1497612014330">
+    <item key="displaysetting_switchto_mitvsetting" value="YES" sdk="&gt;21" product="!gladiator" othervalue="NO"/>
+    <item key="dolbysetting_switchto_mitvsetting" value="NO"  product="inception"/>
+    <item key="dolbysetting_switchto_mitvsetting" value="YES" sdk="&gt;21" product="!gladiator" othervalue="NO"/>
+
+    <!-- sound output for old settings -->
+    <item key="sound_output_device" value="0,2,1" sdk="&lt;22" feature="mitv.hardware.soundbar.compatible" characteristics="tv"/>
+    <item key="sound_output_device" value="0,1" sdk="&lt;22" feature="!mitv.hardware.soundbar.compatible" characteristics="tv"/>
+    <item key="sound_output_device" value="0,2,1" product="gladiator" feature="mitv.hardware.soundbar.compatible"/>
+    <item key="sound_output_device" value="0,1" product="gladiator" feature="!mitv.hardware.soundbar.compatible"/>
+
+    <!-- sound output for new settings -->
+    <item key="sound_output_device" value="0,3" platformid="1041,1071,1073"/>
+    <item key="sound_output_device" value="0,1,5" product="zodiac"/>
+    <item key="sound_output_device" value="5"  product="me2"/>
+    <item key="sound_output_device" value="0,3,5"  product="magnolia" size="32"/>
+    <item key="sound_output_device" value="0,3,1,5"  product="magnolia" size=">32"/>
+    <item key="sound_output_device" value="0,3,1,2,5"  platformid="648" />
+    <item key="sound_output_device" value="0,3,1,2,5"  model="MiTV4C" size="43"/>
+    <item key="sound_output_device" value="0,3,1,2" sdk="&gt;21" feature="mitv.hardware.soundbar.compatible" characteristics="tv"/>
+    <item key="sound_output_device" value="0,3,1,5" sdk="&gt;21" product="rainman" feature="!mitv.hardware.soundbar.compatible"/>
+    <item key="sound_output_device" value="0,3,1,5" sdk="&gt;21" product="batman" feature="!mitv.hardware.soundbar.compatible"/>
+    <item key="sound_output_device" value="0,3,5" sdk="&gt;21" product="conan" feature="!mitv.hardware.soundbar.compatible"/>
+    <item key="sound_output_device" value="0,1" sdk="&gt;21" product="missionimpossible" buildin="false" characteristics="tv"/>
+    <item key="sound_output_device" value="0,3,1" sdk="&gt;21" feature="!mitv.hardware.soundbar.compatible" characteristics="tv"/>
+    <item key="sound_output_device" value="0,3" sdk="&gt;21" product="inception" buildin="true" feature="!mitv.hardware.soundbar.compatible"/>
+    <item key="sound_output_device" value="0,4" sdk="&gt;21" product="inception" buildin="false" feature="!mitv.hardware.soundbar.compatible"/>
+    <item key="sound_output_device" value="0,3,1,2"  product="waterlooBridge" />
+
+    <!-- sound digital output -->
+    <item key="sound_digital_output" value="0,1" product="forrestgump,kongfupanda" characteristics="stb"/>
+    <item key="sound_digital_output" value="0,1,2" product="jurassicpark,queenchristina" characteristics="stb"/>
+    <item key="sound_digital_output" value="-1,0,1" product="augustrush,augustrush_cntv,augustrush_plus_cntv,casablanca,casablanca_icntv,dredd" characteristics="stb"/>
+
+    <!-- module id: MODULE_DOLBY_AUDIO_EFFECT -->
+    <item key="dolby_audio_effect" value="YES" product="matrix" size="!32"/>
+    <item key="dolby_audio_effect" value="YES" product="xmen" size="!32"/>
+    <item key="dolby_audio_effect" value="YES" model="MiTV4"/>
+    <item key="dolby_audio_effect" value="YES" model="MiTV3S" product="pulpfiction"/>
+    <item key="dolby_audio_effect" value="YES" product="pacificrim,zodiac,rainman,batman,conan"/>
+
+    <!-- dynamic contrast -->
+    <item key="dynamic_contrast" value="3,2,4" sdk="&gt;22" product="missionimpossible,pulpfiction" buildin="true" model="MiTV4" feature="mitv.graphic.advanced.setting" characteristics="tv"/>
+    <item key="dynamic_contrast" value="4,1" sdk="&gt;22" feature="mitv.graphic.advanced.setting" characteristics="tv"/>
+
+    <!-- dynamic color -->
+    <item key="dynamic_color" value="3,2,0" sdk="&gt;22" product="missionimpossible,pulpfiction" buildin="true" model="MiTV4" feature="mitv.graphic.advanced.setting" characteristics="tv"/>
+    <item key="dynamic_color" value="0,1" sdk="&gt;22" feature="mitv.graphic.advanced.setting" characteristics="tv"/>
+
+    <!-- noise reduction -->
+    <item key="noise_reduction" value="YES" sdk="&gt;22" product="missionimpossible,pulpfiction" buildin="true" model="MiTV4" othervalue="NO"/>
+
+    <!-- gamma -->
+    <item key="gamma" value="YES" sdk="&gt;22" product="missionimpossible,pulpfiction" buildin="true" model="MiTV4" othervalue="NO"/>
+
+    <!-- local contrast -->
+    <item key="local_contrast" value="YES" platformid="674,679"/>
+
+    <!-- dtmb -->
+    <item key="dtmb_supported" value="NO" product="pacificrim"/>
+    <item key="dtmb_supported" value="NO" product="magnolia" size="32,43" othervalue="YES"/>
+
+    <!-- multi screen settings -->
+    <item key="multi_screen_settings" value="YES" product="pulpfiction,missionimpossible"/>
+    <item key="multi_screen_settings" value="YES" product="matrix,xmen" size="!32" othervalue="NO"/>
+    <!-- 是否支持图像增强 -->
+    <item key="pq_supported" value="YES" product="rainman,batman,conan,missionimpossible,pulpfiction" buildin="true" feature="!mitv.graphic.advanced.setting"/>
+    <item key="pq_supported" value="YES" product="matrix" size=">43" feature="!mitv.graphic.advanced.setting"/>
+    <item key="pq_supported" value="YES" product="inception" buildin="true" othervalue="NO"/>
+    <!-- 是否支持色温-->
+    <item key="newcolortempmode_supported" value="YES" product="VforVendetta,rainman,batman,conan,inception,missionimpossible,pulpfiction,matrix,xmen" buildin="true"/>
+
+    <!-- 是否支持音效模式-->
+    <item key="normal_audio_effect" value="YES" product="xmen" platformid="661,663,660,665,659,657,664,666,667,668,669,670,671,672,674,676,685,686,693,695,698,699,710,768"/>
+    <item key="normal_audio_effect" value="YES" product="matrix,xmen,magnolia,vforvendetta" size="32"/>
+    <item key="normal_audio_effect" value="YES" product="magnolia" size="43"/>
+    <item key="normal_audio_effect" value="YES" platformid="656,673,675,697,752,757"/>
+    <item key="normal_audio_effect" value="YES" platformid="718,719,720,723,700"/>
+    <item key="normal_audio_effect" value="YES" platformid="711"/>
+    <item key="normal_audio_effect" value="YES" platformid="727,728,729,730,731"/>
+    <item key="normal_audio_effect" value="YES" platformid="741,742,743"/>
+
+    <!-- 是否支持杜比模式-->
+    <item key="dolby_effect_supported" value="NO" product="xmen" platformid="661,663,660,665,659,657,664,666,667,668,669,670,671,672,674,676,685,686,693,695,698,699,710,768"/>
+    <item key="dolby_effect_supported" value="NO" product="xmen" platformid="718,719,720,723,700"/>
+    <item key="dolby_effect_supported" value="NO" product="xmen" platformid="711"/>
+    <item key="dolby_effect_supported" value="NO" product="xmen" platformid="727,728,729,730,731"/>
+    <item key="dolby_effect_supported" value="NO" product="xmen" platformid="741,742,743,752"/>
+    <item key="dolby_effect_supported" value="YES" product="matrix,vforvendettas" size="!32"/>
+    <item key="dolby_effect_supported" value="YES" product="xmen" size=">40"/>
+    <item key="dolby_effect_supported" value="YES" product="xmen" size="40" model="MiTV4A"/>
+    <item key="dolby_effect_supported" value="YES" model="MiTV4"/>
+    <item key="dolby_effect_supported" value="YES" model="MiTV3S" product="pulpfiction"/>
+    <item key="dolby_effect_supported" value="YES" product="pacificrim,zodiac,rainman,batman,conan,missionimpossible"/>
+
+    <!-- 是否支持杜比plus-->
+    <item key="dolbyplus_effect_supported" value="YES" product="xmen" platformid="661,665,659,657,664,666,667,668,671,672,674,676,685,686,693,695,698,699,768"/>
+    <item key="dolbyplus_effect_supported" value="YES" product="xmen" platformid="696,700,719,720"/>
+    <item key="dolbyplus_effect_supported" value="YES" product="xmen" platformid="727,728,729"/>
+    <item key="dolbyplus_effect_supported" value="YES" product="xmen" platformid="741,742,752"/>
+
+    <!-- 是否支持硬件codec-->
+    <item key="audio_codec_supported" value="YES" product="matrix" size="32" othervalue="NO"/>
+
+    <!-- 色温模式数组选择-->
+    <item key="colortempmode_select" value="colortemp_list1" product="pacificrim,xmen,magnolia,missionimpossible,pulpfiction,matrix,rainman,batman,conan" othervalue="colortemp_list"/>
+
+    <!-- 音效模式数组选择-->
+    <item key="soundmode_select" value="soundmode_list2" product="xmen,magnolia,matrix" size="32"/>
+    <item key="soundmode_select" value="soundmode_list2" product="magnolia" size="43" othervalue="soundmode_list"/>
+
+    <!-- 4K屏-->
+    <item key="4k_screen" value="YES" product="missionimpossible,pulpfiction"/>
+    <item key="4k_screen" value="YES" product="matrix" size="55,65" othervalue="NO"/>
+
+    <!-- 3D 格式-->
+    <item key="3d_format" value="null" product="matrix" size="32"/>
+    <item key="3d_format" value="null" product="xmen,magnolia" size="32,40,43"/>
+    <item key="3d_format" value="null" product="matrix" model="MiTV4C" size="43" othervalue="three_dimension_list"/>
+
+    <!-- 复位图像参数时， 是否需要复位色温RGB-->
+    <item key="reset_RGB_reset_picture" value="YES" product="pacificrim,xmen,magnolia,missionimpossible,pulpfiction,matrix"/>
+
+    <!-- 输入源端口列表 -->
+    <item key="source_ports_list" value="source_list_tv_1hdmi" platformid="1041"/>
+    <item key="source_ports_list" value="source_list_tv_1hdmi" platformid="1071"/>
+    <item key="source_ports_list" value="source_list_tv_1hdmi" platformid="1073"/>
+    <item key="source_ports_list" value="source_list_laser_tv" product="rainman,batman"/>
+    <item key="source_ports_list" value="source_list_led_tv" product="me2,zodiac,conan"/>
+    <item key="source_ports_list" value="source_list_tv_3hdmi_without_dtv" product="magnolia" size="32,43"/>
+    <item key="source_ports_list" value="source_list_tv_3hdmi_without_dtv" product="pacificrim"/>
+    <item key="source_ports_list" value="source_list" product="xmen" size="43" platformid="648"/>
+    <item key="source_ports_list" value="source_list_tv_2hdmi" product="xmen" size="32,40,43"/>
+    <item key="source_ports_list" value="source_list_tv_2hdmi" product="pulpfiction" panel_type="8"/>
+    <item key="source_ports_list" value="source_list" product="matrix,xmen" model="!MiTV4C" size="65"/>
+    <item key="source_ports_list" value="source_list" product="matrix,xmen" model="!MiTV4C" size="55"/>
+    <item key="source_ports_list" value="source_list_tv_2hdmi" product="matrix" model="!MiTV4C"/>
+    <item key="source_ports_list" value="source_list"/>
+
+    <!-- 添加低音炮，低音炮外观不同 -->
+    <item key="add_subwoofer_newview" value="YES" product="missionimpossible" model="MiTV4"/>
+
+    <!-- 添加麦克风，麦克风外观不同 -->
+    <item key="add_ktv_newview" value="YES" product="missionimpossible" model="MiTV4"/>
+
+    <!-- 添加小米家庭音响, 接口硬件不同 -->
+    <item key="add_soundbar_newview" value="YES" product="pulpfiction"/>
+
+    <!-- 是否监听低音炮连接状态广播 -->
+    <item key="listen_subwoofer_connect" value="YES" product="missionimpossible" model="MiTV3S"/>
+
+    <!-- Dolby Test只保留EqDrc和Dts drc两个选项的特殊情况  -->
+    <item key="dolbytest_keep_eqdts" value="YES" product="VforVendetta"/>
+
+    <!-- 低音炮是否支持线连  -->
+    <item key="subwoofer_byline_suppoert" value="YES" product="missionimpossible" model="MiTV4,MiTV3S"/>
+    <item key="subwoofer_byline_suppoert" value="YES" product="rainman,batman" model="MiProjA1,MiProjLAS2"/>
+    <!-- 分体当盒子使用时 SoundView界面与盒子区分  -->
+    <item key="soundview_boxproduct_tvview" value="YES" product="missionimpossible" model="MiTV4,MiTV3S"/>
+
+    <!-- atmos声音测试声道不同  -->
+    <item key="platform_atmos" value="YES" product="missionimpossible" model="MiTV4"/>
+
+    <!-- dolby是否支持virtual surround 和 voice enhance  -->
+    <item key="dolby_virtualsurround_support" value="NO" product="missionimpossible" model="MiTV4" othervalue="YES"/>
+
+    <!-- 是否使用wifi MAC -->
+    <item key="use_wifi_mac" value="YES" product="transformers" model="MiBOX4C"/>
+    <item key="use_wifi_mac" value="YES" product="dolphin_zorro"/>
+
+    <!-- 是否显示系统更新 -->
+    <item key="show_system_update" value="YES" product="transformers" model="MiBOX4C"/>
+    <item key="show_system_update" value="YES" product="dolphin_zorro"/>
+
+    <item key="can_power_suspend" value="YES" product="rainman,batman,conan,gladiator,inception,missionimpossible,pulpfiction,zodiac"/>
+
+    <item key="show_bluetooth_touch" value="YES" product="queenchristina"/>
+
+    <!-- HDMI 顺序转换  begin-->
+    <item key="hdmi1_order" value="24" product="pulpfiction,pulpfiction_fact" panel_type="8"/>
+    <item key="hdmi1_order" value="23" product="pulpfiction,pulpfiction_fact" />
+    <item key="hdmi1_order" value="25" product="matrix,matrix_fact" model="MiTV4C" size="43,55"/>
+    <item key="hdmi1_order" value="23" product="matrix,matrix_fact" model="MiTV4C"/>
+    <item key="hdmi1_order" value="25" product="matrix,matrix_fact" model="!MiTV4C" size="55"/>
+    <item key="hdmi1_order" value="23" product="matrix,matrix_fact" model="!MiTV4C" size="65"/>
+    <item key="hdmi1_order" value="24" product="matrix,matrix_fact" model="!MiTV4C"/>
+    <item key="hdmi1_order" value="25" product="magnolia,magnolia_fact"/>
+    <item key="hdmi1_order" value="23" product="rainman,zodiac,batman,conan,pacificrim,rainman_fact,batman_fact,conan_fact,zodiac_fact,pacificrim_fact" />
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="1041"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="1071"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="1073"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" size="32"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="635"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="636"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="638"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="640"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="645"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="647"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="650"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="651"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="654"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="655"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="656"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="658"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="660"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="661"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="662"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="663"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="667"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="669"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="670"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="672"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="673"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="674"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="675"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="678"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="680"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="681"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="686"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="693"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="695"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="696"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="697"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="699"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="710"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="711"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="718"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="721"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="723"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="728"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="730"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="731"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="743"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="744"/>
+    <item key="hdmi1_order" value="24" product="xmen,xmen_fact" platformid="757"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="752"/>
+    <item key="hdmi1_order" value="23" product="xmen,xmen_fact" platformid="768"/>
+    <item key="hdmi1_order" value="25" />
+
+    <item key="hdmi2_order" value="25" product="pulpfiction,pulpfiction_fact" panel_type="8"/>
+    <item key="hdmi2_order" value="24" />
+
+    <item key="hdmi3_order" value="23" product="pulpfiction,pulpfiction_fact" panel_type="8"/>
+    <item key="hdmi3_order" value="25" product="pulpfiction,pulpfiction_fact" />
+    <item key="hdmi3_order" value="23" product="matrix,matrix_fact" model="MiTV4C" size="43,55"/>
+    <item key="hdmi3_order" value="25" product="matrix,matrix_fact" model="MiTV4C"/>
+    <item key="hdmi3_order" value="23" product="matrix,matrix_fact" model="!MiTV4C" size="55"/>
+    <item key="hdmi3_order" value="25" product="matrix,matrix_fact" model="!MiTV4C" size="65"/>
+    <item key="hdmi3_order" value="23" product="matrix,matrix_fact" model="!MiTV4C"/>
+    <item key="hdmi3_order" value="23" product="magnolia,magnolia_fact"/>
+    <item key="hdmi3_order" value="25" product="rainman,batman,zodiac,pacificrim,rainman_fact,batman_fact,zodiac_fact,pacificrim_fact" />
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="636"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="647"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="650"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="651"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="654"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="655"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="658"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="661"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="662"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="667"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="672"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="674"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="678"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="680"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="681"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="686"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="693"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="695"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="696"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="699"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="721"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="728"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="744"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="752"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="768"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="1041"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="1071"/>
+    <item key="hdmi3_order" value="25" product="xmen,xmen_fact" platformid="1073"/>
+    <item key="hdmi3_order" value="23" />
+    <!-- HDMI 顺序转换  end-->
+
+    <!-- 设备出厂是否写入遥控器mac地址 -->
+    <item key="factory_write_ble_mac" value="NO" product="pulpfiction" size="75"/>
+    <item key="factory_write_ble_mac" value="YES" product="matrix,zodiac,me2,missionimpossible,rainman,batman,conan,pulpfiction"/>
+    <item key="factory_write_ble_mac" value="YES" product="transformers,queenchristina,kongfupanda,jurassicpark"/>
+    <item key="factory_write_ble_mac" value="YES" sdk="&lt;23"/>
+    <!-- ATV里面是否显示图像制式菜单 -->
+    <item key="show_atv_video_std" value="YES" product="vforvendetta,matrix,xmen"/>
+
+    <!-- 是否显示Spdifin输入源 -->
+    <item key="show_Spdifin_source" value="YES" product="missionimpossible"/>
+
+    <!-- 是否上传gamma值 -->
+    <item key="gamma_upload" value="YES" product="pulpfiction" model="MiTV4" size="!75"/>
+
+    <!-- BoxProduct中声音界面显示的是Tv的SoundView -->
+    <item key="SoundView_in_boxproduct" value="YES" product="missionimpossible" model="MiTV4,MiTV3S"/>
+
+    <!-- 设置首页只有6个格 -->
+    <item key="settings_mainview_6grid" value="YES" product="transformers" model="MiBOX4C"/>
+    <item key="settings_mainview_6grid" value="YES" product="dolphin_zorro"/>
+
+    <!-- 盒子设置声音digitaloutput是否有auto选项 -->
+    <item key="digitaloutput_auto_supported" value="YES" product="transformers" model="MiBOX4C,MiBOX4"/>
+    <item key="digitaloutput_auto_supported" value="YES" product="queenchristina" model="MiBOX3S"/>
+    <item key="digitaloutput_auto_supported" value="YES" product="jurassicpark" model="MiBOX3"/>
+
+    <!-- 盒子是否支持CEC-->
+    <item key="cec_supported" value="NO" product="dolphin_zorro"/>
+
+    <!-- 蓝牙天线的位置 -->
+    <item key="pair_on_left" value="YES" product="matrix" model="MiTV4A"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="647"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="636"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="650"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="654"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="655"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="658"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="659"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="662"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="665"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="671"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="672"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="676"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="678"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="680"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="685"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="686"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="693"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="696"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="698"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="699"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="711"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="719"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="721"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="729"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="742"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="744"/>
+    <item key="pair_on_left" value="YES" product="xmen" platformid="768"/>
+    <item key="pair_on_right" value="YES" product="missionimpossible"  model="MiTV4"/>
+    <item key="pair_in_middle" value="YES" product="hancock" model="MiTV3S-43"/>
+    <item key="pair_in_middle" value="YES" product="pulpfiction" model="MiTV3S"/>
+    <item key="pair_in_middle" value="YES" product="pulpfiction" model="MiTV4"/>
+    <item key="pair_in_middle" value="YES" product="vforvendetta" model="MiTV4S" size="32"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="651"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="660"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="661"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="663"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="666"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="667"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="668"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="669"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="670"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="674"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="681"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="695"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="710"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="718"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="723"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="728"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="730"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="731"/>
+    <item key="pair_in_middle" value="YES" product="xmen" platformid="743"/>
+    <!-- pair_on_left_special 代表分体电视的电视主机，pair_on_left 代表电视 -->
+    <item key="pair_on_left_special" value="YES" product="missionimpossible" model="MiTV3S"/>
+
+    <item key="pair_on_right_projector" value="YES" product="rainman,batman"  model="MiProjA1,MiProjLAS2"/>
+    <item key="pair_on_right_projector" value="YES" product="zodiac,conan"  model="ZMiProj,MiProjLED1"/>
+    <!-- 蓝牙配对图片 -->
+    <item key="pair_img_left_special" value="YES" product="matrix" model="MiTV4A"/>
+    <item key="pair_img_mission" value="YES" product="missionimpossible" model="MiTV3S"/>
+    <item key="pair_img_atmos" value="YES" product="missionimpossible"  model="MiTV4"/>
+    <!-- The antenna is in middle -->
+    <item key="pair_img_tv_43" value="YES" product="hancock" model="MiTV3S-43"/>
+    <item key="pair_img_tv_43" value="YES" product="pulpfiction" model="MiTV3S"/>
+    <item key="pair_img_tv_43" value="YES" product="pulpfiction" model="MiTV4"/>
+    <item key="pair_img_tv_43" value="YES" product="vforvendetta" model="MiTV4S" size="32"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="651"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="660"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="661"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="663"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="666"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="667"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="668"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="669"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="670"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="674"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="681"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="695"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="710"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="718"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="723"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="728"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="730"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="731"/>
+    <item key="pair_img_tv_43" value="YES" product="xmen" platformid="743"/>
+    <item key="pair_img_projector" value="YES" product="rainman,batman" model="MiProjA1,MiProjLAS2"/>
+    <item key="pair_img_projector" value="YES" product="zodiac,conan" model="ZMiProj,MiProjLED1"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="647"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="636"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="650"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="654"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="655"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="658"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="659"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="662"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="665"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="671"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="672"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="676"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="678"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="680"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="685"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="686"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="693"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="696"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="698"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="699"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="711"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="719"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="721"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="729"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="742"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="744"/>
+    <item key="pair_img_left" value="YES" product="xmen" platformid="768"/>
+    <!-- 添加蓝牙配对图片 -->
+    <item key="add_remote_special" value="YES" product="matrix" model="MiTV4A"/>
+    <item key="add_remote_mission" value="YES" product="missionimpossible" model="MiTV3S"/>
+    <item key="add_remote_atmos" value="YES" product="missionimpossible"  model="MiTV4"/>
+    <!-- The antenna is in middle -->
+    <item key="add_remote_tv_43" value="YES" product="hancock" model="MiTV3S-43"/>
+    <item key="add_remote_tv_43" value="YES" product="pulpfiction" model="MiTV3S"/>
+    <item key="add_remote_tv_43" value="YES" product="pulpfiction" model="MiTV4"/>
+    <item key="add_remote_tv_43" value="YES" product="vforvendetta" model="MiTV4S" size="32"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="651"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="660"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="661"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="663"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="666"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="667"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="668"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="669"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="670"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="674"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="681"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="695"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="710"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="718"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="723"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="728"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="730"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="731"/>
+    <item key="add_remote_tv_43" value="YES" product="xmen" platformid="743"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="647"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="636"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="650"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="654"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="655"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="658"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="659"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="662"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="665"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="671"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="672"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="676"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="678"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="680"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="685"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="686"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="693"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="696"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="698"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="699"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="711"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="719"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="721"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="729"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="742"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="744"/>
+    <item key="add_remote_left" value="YES" product="xmen" platformid="768"/>
+
+    <!--部分电视因为电平的原因需要开机后关闭呼吸灯 eg: paltformid="656,647,648"-->
+    <item key="led_brightness" value="YES" platformid="641,655,656,662,671,677,678,697,699,724,744,752,768"/>
+
+    <!--是否显示休眠菜单 -->
+    <item key="show_hibernate_menu" value="NO" product="waterlooBridge"/>
+
+    <!--是否支持identifier查询 -->
+    <item key="support_mitv_identifier" value="YES" product="xmen,vforvendetta,vforvendettas,waterlooBridge"/>
+</items>

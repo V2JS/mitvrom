@@ -1,0 +1,53 @@
+#!/system/bin/sh
+
+flat_eq () {
+	while read cmdline
+	do
+		codec_str=${cmdline#*aux_codec=}
+		codec=${codec_str%% *}
+	done < /proc/cmdline
+
+	if [ -z $codec ];then
+		echo "unknown codec"
+		exit
+	fi
+
+	if [ "$codec" = "tas5707" ];then
+		file="ti""_""$codec""_flat_eq.dts"
+	fi
+	if [ "$codec" = "tas5805" ];then
+		file="ti""_""$codec""_flat_eq.dts"
+	fi
+	if [ "$codec" = "ad82584" ];then
+		file="esmt""_""$codec""d""_flat_eq.dts"
+	fi
+	if [ "$codec" = "ad82088" ];then
+		file="esmt""_""$codec""_flat_eq.dts"
+	fi
+
+	if [ ! -f "/system/etc/codec_para/$file" ];then
+		echo "$file doesn't exist"
+		echo 0 > /sys/class/xiaomi-speaker/AMP/flat_eq
+	else
+		cat /system/etc/codec_para/$file > /sys/class/xiaomi-speaker/AMP/eq_param
+		echo "eq $file done"
+	fi
+}
+
+normal_eq () {
+	/system/bin/codec.sh
+}
+
+echo -e "\t[1]   flat EQ (frequency response)"
+echo -e "\t[2] normal EQ parameters"
+
+read option
+
+if [ "$option" == 1 ]; then
+	flat_eq
+elif [ "$option" == 2 ]; then
+	normal_eq
+else
+	echo -e "default use normal EQ para!"
+	normal_eq
+fi
