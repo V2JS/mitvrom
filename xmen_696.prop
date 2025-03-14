@@ -1,0 +1,11 @@
+#720P UI,  1280 * 720 *4 * 5 = 18M, 5 frame is enough
+#ro.hwui.texture_cache_size=18.0f
+#ro.hwui.layer_cache_size=15.0f
+#media.player.support4k=false
+media.postgain.hp=0
+media.pregain.clamp=false
+ro.miot.model=xiaomi.tv.fsv1
+ro.miot.appid=446688434283610112
+ro.miot.pid=66989
+ro.miot.rssi=-20
+service.mitvenergy.percent=68

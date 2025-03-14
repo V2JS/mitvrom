@@ -1,0 +1,8 @@
+#720P UI,  1280 * 720 *4 * 5 = 18M, 5 frame is enough
+#ro.hwui.texture_cache_size=18.0f
+#ro.hwui.layer_cache_size=15.0f
+media.player.support4k=false
+media.postgain.hp=0
+dalvik.vm.heapsize=256m
+ro.miot.pid=28
+ro.miot.rssi=-20
